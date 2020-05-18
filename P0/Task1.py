@@ -18,3 +18,21 @@ How many different telephone numbers are there in the records?
 Print a message:
 "There are <count> different telephone numbers in the records."
 """
+
+unique_nums = []
+
+for text in texts:
+    if text[0] not in unique_nums:
+        unique_nums.append(text[0])
+    if text[1] not in unique_nums:
+        unique_nums.append(text[1])
+
+for call in calls:
+    if call[0] not in unique_nums:
+        unique_nums.append(call[0])
+    if call[1] not in unique_nums:
+        unique_nums.append(call[1])
+
+print(len(unique_nums))
+
+#  Calculate Big O - O(n)
