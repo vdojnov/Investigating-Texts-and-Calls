@@ -26,3 +26,6 @@ last_call = "Last record of calls, {} calls {} at time {}, lasting {} seconds".f
 
 print(first_text)
 print(last_call)
+
+
+#  Calculate Big O - O(n)
