@@ -37,8 +37,8 @@ prefixes = []
 telemarketer = False
 call_bangalore = 0
 total_calls = 0
+code = ''
 for call in calls:
-  code = ''
   if call[0][0:5] == '(080)':
     total_calls += 1
     if call[1][0:5] == '(080)':
@@ -74,5 +74,7 @@ to other fixed lines in Bangalore."
 The percentage should have 2 decimal digits
 """
 
-percentage = (call_bangalore/total_calls) * 100
-print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(round(percentage, 2)))
+percentage = round((call_bangalore/total_calls) * 100, 2)
+print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(percentage))
+
+#  Calculate Big O Worst Case - O(n log(n))

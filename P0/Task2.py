@@ -46,3 +46,4 @@ phrase = "{} spent the longest time, {} seconds, on the phone during September 2
 print(phrase)
 
 
+#  Calculate Big O Worst Case - O(n)

@@ -25,3 +25,27 @@ Print a message:
 The list of numbers should be print out one per line in lexicographic order with no duplicates.
 """
 
+telemarketers = []
+numbers_not_telemarketer = []
+
+    
+for call in calls:
+    if call[1] not in numbers_not_telemarketer:
+        numbers_not_telemarketer.append(call[1])
+
+for text in texts:
+    if text[0] not in numbers_not_telemarketer:
+        numbers_not_telemarketer.append(text[0])
+    if text[1] not in numbers_not_telemarketer:
+        numbers_not_telemarketer.append(text[1])
+
+for call in calls:
+    if call[0] not in numbers_not_telemarketer and call[0] not in telemarketers:
+        telemarketers.append(call[0])
+
+telemarketers.sort()
+print("These numbers could be telemarketers: ")
+for number in telemarketers:
+    print(number)
+
+#  Calculate Big O Worst Case - O(n log(n))

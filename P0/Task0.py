@@ -21,11 +21,10 @@ Print messages:
 """
 first_text = "First record of texts, {} texts {} at time {}".format(texts[0][0], texts[0][1], texts[0][2])
 
-last_index = len(calls) - 1
-last_call = "Last record of calls, {} calls {} at time {}, lasting {} seconds".format(calls[last_index][0], calls[last_index][1], calls[last_index][2], calls[last_index][3])
+last_call = "Last record of calls, {} calls {} at time {}, lasting {} seconds".format(calls[-1][0], calls[-1][1], calls[-1][2], calls[-1][3])
 
 print(first_text)
 print(last_call)
 
 
-#  Calculate Big O - O(n)
+#  Calculate Big O Worst Case - O(1)
