@@ -77,4 +77,3 @@ The percentage should have 2 decimal digits
 percentage = round((call_bangalore/total_calls) * 100, 2)
 print("{} percent of calls from fixed lines in Bangalore are calls to other fixed lines in Bangalore.".format(percentage))
 
-#  Calculate Big O Worst Case - O(n log(n))

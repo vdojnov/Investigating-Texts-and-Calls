@@ -48,4 +48,3 @@ print("These numbers could be telemarketers: ")
 for number in telemarketers:
     print(number)
 
-#  Calculate Big O Worst Case - O(n log(n))

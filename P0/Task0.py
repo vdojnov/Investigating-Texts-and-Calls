@@ -27,4 +27,3 @@ print(first_text)
 print(last_call)
 
 
-#  Calculate Big O Worst Case - O(1)
