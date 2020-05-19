@@ -1,0 +1,14 @@
+Task0
+Big O - O(1)
+
+Task1
+Big O - O(n + m)
+
+Task2
+Big O - O(n)
+
+Task3
+Big O - O(n log(n))
+
+Task4
+Big O - O(n log(n))
