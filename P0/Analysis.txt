@@ -1,14 +1,44 @@
-Task0
-Big O - O(1)
+Task xc:
+    Worse case complexity: O(n)
+    Algorithm:
+        initialise an empty set(complexity: O(1))
+        map through calls and texts to update set(complexity: O(n))
+        print resulting string to console(complexity: O(1))
 
-Task1
-Big O - O(n + m)
 
-Task2
-Big O - O(n)
+Task0:
+    Worse case complexity: O(1)
+    Algorithm:
+        Get the first record in texts (complexity: O(1))
+        Get the last record in calls (complexity: O(1))
+        Printing strings (complexity: O(1))
 
-Task3
-Big O - O(n log(n))
+Task1:
+    Worse case complexity: O(n + m)
+    Algorithm:
+        Loop through all items in texts (complexity: O(n))
+        Loop through all items in calls (complexity: O(m))
 
-Task4
-Big O - O(n log(n))
+Task2:
+    Worse case complexity: O(n)
+    Algorithm:
+        Loop through all item in calls (complexity: O(n))
+        if/else statements (could be imporved using a set) (complexity: O(1))
+        Loop through number in time one phone (could be imporved using a set) (complexity: O(n)) 
+
+Task3:
+    Worse case complexity:O(n log(n))
+    Algorithm:
+        Loop through all item in calls (complexity: O(n))
+        if/else statement complexity: O(1))
+        Perform sort() (complexity: O(n log(n)))
+        Loop through prefixes and print (complexity: O(n))
+
+Task4:
+    Worse case complexity: O(n log(n))
+    Algorithm:
+        Loop through all item in calls (complexity: O(n))
+        Loop through all item in texts (complexity: O(n))
+        Loop through all item in calls (complexity: O(n))
+        Perform sort() (complexity: O(n log(n)))
+        Loop through telemarketers and print (complexity: O(n))
